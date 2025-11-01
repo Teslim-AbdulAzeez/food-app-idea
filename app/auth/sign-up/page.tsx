@@ -32,7 +32,7 @@ export default function SignupPage() {
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/dashboard`,
+          emailRedirectTo: `${window.location.origin}/auth/callback`,
           data: { name, fitness_goal: goal },
         },
       })
@@ -40,7 +40,6 @@ export default function SignupPage() {
       if (authError) throw authError
 
       if (authData.user?.id) {
-        // Create profile after signup
         const { error: profileError } = await supabase.from("profiles").insert({
           id: authData.user.id,
           name,
