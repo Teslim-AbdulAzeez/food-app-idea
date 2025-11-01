@@ -1,0 +1,22 @@
+-- Seed Nigerian foods database with popular meals
+INSERT INTO nigerian_foods (name, category, calories_per_serving, protein_g, carbs_g, fat_g, serving_size, local_measurement, description) VALUES
+('Jollof Rice', 'Rice Dishes', 280, 6, 48, 6, '1 cup cooked', '1 medium plate', 'Spiced rice with tomato base'),
+('Egusi Soup', 'Soups', 180, 12, 8, 10, '1 cup', '1 bowl', 'Melon seed soup with vegetables'),
+('Fufu', 'Staples', 200, 3, 45, 0.5, '100g', '1 serving', 'Pounded cassava and plantain'),
+('Pepper Rice', 'Rice Dishes', 250, 7, 42, 5, '1 cup cooked', '1 medium plate', 'Rice with peppers and spices'),
+('Goat Meat', 'Proteins', 280, 35, 0, 14, '100g cooked', '1 medium piece', 'Lean protein source'),
+('Chicken', 'Proteins', 165, 31, 0, 3.6, '100g cooked', '1 medium piece', 'Poultry protein'),
+('Beans', 'Legumes', 140, 9, 20, 0.8, '1 cup cooked', '1 cup', 'Nigerian beans cooked'),
+('Ofada Rice', 'Rice Dishes', 290, 8, 52, 4, '1 cup cooked', '1 medium plate', 'Local unpolished rice'),
+('Moin Moin', 'Snacks', 200, 8, 18, 9, '100g', '1 piece', 'Steamed bean pudding'),
+('Akara', 'Snacks', 220, 8, 24, 10, '2 balls', '2 pieces', 'Fried bean cakes'),
+('Plantain', 'Carbs', 120, 1, 32, 0.3, '100g', '1 medium', 'Fried or boiled plantain'),
+('Sweet Potato', 'Carbs', 86, 1.6, 20, 0.1, '100g cooked', '1 medium', 'Boiled sweet potato'),
+('Ugali', 'Staples', 150, 4, 32, 0.3, '100g', '1 serving', 'Corn meal staple'),
+('Okra Soup', 'Soups', 140, 4, 12, 7, '1 cup', '1 bowl', 'Vegetable soup with okra'),
+('Palm Soup', 'Soups', 200, 3, 8, 15, '1 cup', '1 bowl', 'Rich soup with palm oil'),
+('Spinach', 'Vegetables', 23, 2.7, 3.6, 0.4, '100g raw', '1 handful', 'Fresh green vegetables'),
+('Tomato', 'Vegetables', 18, 0.9, 3.9, 0.2, '100g', '1 medium', 'Fresh tomato'),
+('Onion', 'Vegetables', 40, 1.1, 9, 0.1, '100g', '1 medium bulb', 'Cooking ingredient'),
+('Egg', 'Proteins', 155, 13, 1.1, 11, '1 large', '1 egg', 'Breakfast protein'),
+('Fish', 'Proteins', 200, 25, 0, 11, '100g cooked', '1 medium fillet', 'Omega-3 rich protein');
